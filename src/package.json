@@ -1,0 +1,36 @@
+{
+  "name": "server_sms",
+  "version": "1.0.0",
+  "description": "Server School Management System Dev By team@binh-dev.io.vn",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "school",
+    "management",
+    "system"
+  ],
+  "author": "BinhDev",
+  "license": "ISC",
+  "dependencies": {
+    "awilix": "^4.2.3",
+    "awilix-express": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "config": "^1.29.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.16.4",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^3.18.0",
+    "joi": "^17.13.1",
+    "mongodb": "^3.4.1",
+    "nodemon": "^1.18.10",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "eslint": "9.x",
+    "globals": "^15.4.0"
+  }
+}
